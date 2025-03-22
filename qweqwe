@@ -1,0 +1,10 @@
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+        greetUser("John"); // New feature added
+    }
+
+    public static void greetUser(String name) {
+        System.out.println("Hello, " + name + "! Welcome to GitHub.");
+    }
+}
